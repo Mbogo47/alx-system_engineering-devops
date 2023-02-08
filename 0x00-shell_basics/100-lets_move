@@ -1,6 +1,2 @@
 #!/bin/bash
-for file in *; do
-    if [[ $file =~ ^[A-Z].* ]]; then
-    	mv "$file" /tmp/u/
-    fi
-done
+mv [A-Z]* /tmp/u/
